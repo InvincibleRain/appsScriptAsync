@@ -3,7 +3,7 @@ Make common client side `google` object functions like `google.script.run` retur
 
 # Usage
 ```
-<script src="https://raw.githubusercontent.com/InvincibleRain/appsScriptAsync/main/PromiseProxy.js"/>
+<script src="https://raw.githubusercontent.com/InvincibleRain/appsScriptAsync/main/PromiseProxy.min.js"/>
 <script>
 const doSomeAsyncStuff = async () => {
   const location = await google.script.url.getLocation();
